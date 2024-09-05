@@ -1118,3 +1118,4 @@ fabric.properties
 /target/Uzum_Market_New-1.0-SNAPSHOT/update-seller-role.jsp
 /target/Uzum_Market_New-1.0-SNAPSHOT/update-seller-status.jsp
 /target/Uzum_Market_New-1.0-SNAPSHOT/userprofile.jsp
+!/src/test/
