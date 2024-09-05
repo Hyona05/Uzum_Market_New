@@ -56,7 +56,7 @@ public class EmailService {
         Authenticator auth = new Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("ozodaxonzoda05@gmail.com", "katougfdldkxqwgf");
+                return new PasswordAuthentication("example@gmail.com", "password");
             }
         };
 
@@ -64,7 +64,7 @@ public class EmailService {
 
         try {
             Message message = new MimeMessage(session);
-            message.setFrom(new InternetAddress("ozodaxonzoda05@gmail.com"));
+            message.setFrom(new InternetAddress("example@gmail.com"));
             message.setRecipient(Message.RecipientType.TO, new InternetAddress(email));
             message.setSubject(subject);
             message.setContent(htmlContent, "text/html");
